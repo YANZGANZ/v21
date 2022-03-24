@@ -1,11 +1,11 @@
 
 {
-  botname = "Yuki Bot"
+  botname = "Yanz Bot"
 
 
   exports.help = (prefix) => {
 return `
-LIST MENU APISS STORE
+LIST MENU ARIFF STORE
 #mla *menampilkan list mobile legend fast*
 #mlb *menampilkan list mobile legend last*
 #reddem *menampilkan list reddem*
@@ -117,13 +117,13 @@ Proses 5-60 Menit, Max 24 Jam (Event)
 Apabila Melewati Jam Aktif, Maka Akan Di Proses Di Hari Berikutnya
 [14.05, 20/12/2021] Apiss Store: 💰 PAYMENT  💰
 
-💳 DANA
-Nomor : 081295909383
-A / n : DISAH
+💳 DANA (LIMIT)
+Nomor : 
+A / n : 
 
 💳 GOPAY
-Nomor : 081295909383
-A / n : apis store
+Nomor : 085868010957
+A / n : ARIF STORE
 
 💳 OVO (LIMIT) 
 Nomor : 
@@ -139,13 +139,13 @@ PILIH PAYMENT, DAN SAMAKAN DENGAN ATAS NAMA NYA. INGAT JIKA INGIN REFF KEMBALI K
 return `
 💰 PAYMENT  💰
 
-💳 DANA
-Nomor : 081295909383
-A / n : DISAH
+💳 DANA (LIMIT)
+Nomor : 
+A / n : 
 
 💳 GOPAY
-Nomor : 081295909383
-A / n : apis store
+Nomor : 085868010957
+A / n : ARIF STORE
 
 💳 OVO (LIMIT) 
 Nomor : 
@@ -208,6 +208,8 @@ DIAMOD FREEFIRE
 1075💎(Rp:140.000)
 
 2000💎 (Rp:254.000)
+MM : 29.000
+MB :147.500
 ✅INFORMASI:
 
 ✅DIAMOND FREEFIRE :
