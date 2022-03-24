@@ -1577,11 +1577,11 @@ Call / VC Bot = Self/Block
 Spam Bot = Ban + Block
 
 *Group Support*💬
-• *Group 1:* https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-• *Group 2:* https://chat.whatsapp.com/BoXaWqe3geWEDdq0v2f0Iy
+• *Group 1:* https://chat.whatsapp.com/Ch5rqamn6dE94g1L5ih4uM
+• *Group 2:* https://chat.whatsapp.com/Ch5rqamn6dE94g1L5ih4uM
 
 *Support Me*❤️
-• *https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ*
+• *https://www.youtube.com/channel/UCdTdvjr8-fSP2i_WBbCQjoA*
 
 
 *Rest Api*
@@ -1600,17 +1600,18 @@ Spam Bot = Ban + Block
 
 
 *Web*
+• *Yandex.com*
 • *Xnxx.com*
 • *Zbporn.com*
 • *4evorproxy.com*
 
 *Sosial Media Creator* 
-• *Website:* https://saipulanuar.github.io/saipulstore
-• *Github:* https://github.com/Ksaipulanuar
-• *WhatsApp:* https://wa.me/6288279268363
-• *Youtube:* https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+• *Website:* https://saipulanuar.github.io/YANZGANZ
+• *Github:* https://github.com/YANZGANZ
+• *WhatsApp:* https://wa.me/48729759866
+• *Youtube:* https://www.youtube.com/channel/UCdTdvjr8-fSP2i_WBbCQjoA
 • *Facebook:* https://www.facebook.com/raraharsita2
-• *Instagram:* https://www.instagram.com/drak_ipul123
+• *Instagram:* https://www.instagram.com/ariff4you_
 • *Tiktok:* https://www.tiktok.com/@raraharsita2
 
 
@@ -1639,7 +1640,7 @@ Spam Bot = Ban + Block
               title: `halo kak👋 ${pushname} `,
               body: `${ucapanWaktu} Semoga harimu menyenangkan`,
               mediaType: 2,
-              mediaUrl: "https://www.instagram.com/drak_ipul123",
+              mediaUrl: "https://www.instagram.com/ariff4you_",
               thumbnail: fs.readFileSync('./foto/KingOfBear.jpg'),
             }, forwardingScore: 508, isForwarded: true, mentionedJid: [Tag + '@s.whatsapp.net', senderr]                        
           }
@@ -1651,7 +1652,7 @@ Spam Bot = Ban + Block
         stod = `${sender}`
         listMsg = {
           buttonText: 'Click Here',
-          footerText: `© Creator By KingOfBear Official`,
+          footerText: `© Creator By Yanz Official`,
           description: `hallo kak silahkan pilih disini kak, jangan spam ya kak`,
           sections: [
             {
@@ -1883,7 +1884,7 @@ Spam Bot = Ban + Block
               "description": `MENU NYA
 `,
               "currencyCode": "SEWABOT =",
-              "priceAmount1000": "20000 manen",
+              "priceAmount1000": "25000 manen",
               "productImageCount": 3
             },
             "businessOwnerJid": "6288279268363@s.whatsapp.net",
@@ -2340,7 +2341,7 @@ break
       case 'kerangmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, kerangmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, kerangmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'rules':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
@@ -2356,127 +2357,127 @@ break
         anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
         
-        sendButLocation(from, downloadmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, downloadmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'animemenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, animemenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, animemenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'tembakmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, tembakmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, tembakmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'othermenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, othermenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, othermenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'grupmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, grupmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, grupmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
         case 'randomtag':
         anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, randomtag(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, randomtag(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'randomimage':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, randomimage(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, randomimage(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'gamemenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, gamemenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, gamemenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
         case 'nulismenu':
         anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, nulismenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, nulismenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
         case 'animanga':
         anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, animanga(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, animanga(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'anon':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, anonymous(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, anonymous(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'rpgmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, rpgmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, rpgmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'soundmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, soundmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, soundmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'editormenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, editormenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, editormenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'koreamenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, koreamenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, koreamenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'coganmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, coganmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, coganmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'cecanmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, cecanmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, cecanmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'convertmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, convertmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, convertmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'searchmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, searchmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, searchmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'randomvideo':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, randomvideo(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, randomvideo(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'mememaker':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, mememaker(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, mememaker(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'kartunmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, kartunmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, kartunmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'randomtext':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, textrandom(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, textrandom(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'stalkmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, stalkmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, stalkmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'hewanmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, hewanmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, hewanmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'sertimenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
@@ -2486,7 +2487,7 @@ break
       case 'infomenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, infomenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, infomenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'filmmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
@@ -2496,37 +2497,37 @@ break
       case 'islammenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, islammenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, islammenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'ephotooxy':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, ephotooxy(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, ephotooxy(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'ephoto360':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, ephoto360(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, ephoto360(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'funmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, funmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, funmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'makermenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, makermenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, makermenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'apkmenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, apkmenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, apkmenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
       case 'ownermenu':
       anu = await fetchJson(`https://apikey-bear3.herokuapp.com/api/textpro/transfomer?apikey=${bearkey}&text=${command}`)
         anu1 = await getBuffer(anu.result)
-        sendButLocation(from, ownermenu(prefix, botName), `BY KingOfBear`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
+        sendButLocation(from, ownermenu(prefix, botName), `BY Yanz Official`, { jpegThumbnail: anu1 }, [{ buttonId: `${prefix}menu`, buttonText: { displayText: `${control.NamaBot}` }, type: 1 }], { contextInfo: { mentionedJid: [senderr,] } })
         break
         /////FITUR TAMBAHAN BY KingOfBear OFFICIAL
         case 'storemenu':
@@ -2534,7 +2535,7 @@ break
         stod = `${sender}`
         listMsg = {
           buttonText: 'Click Here',
-          footerText: `© Creator By KingOfBear Official`,
+          footerText: `© Creator By Yanz Official`,
           description: `hallo kak silahkan pilih disini kak, jangan spam ya kak`,
           sections: [
             {
@@ -2591,7 +2592,7 @@ break
         stod = `${sender}`
         listMsg = {
           buttonText: 'Click Here',
-          footerText: `© Creator By KingOfBear Official`,
+          footerText: `© Creator By Yanz Official`,
           description: `hallo kak silahkan pilih disini kak, jangan spam ya kak`,
           sections: [
             {
@@ -2638,7 +2639,7 @@ break
         stod = `${sender}`
         listMsg = {
           buttonText: 'Click Here',
-          footerText: `© Creator By KingOfBear Official`,
+          footerText: `© Creator By Yanz Official`,
           description: `hallo kak silahkan pilih disini kak, jangan spam ya kak`,
           sections: [
             {
@@ -2702,13 +2703,13 @@ case 'donasi':
 case 'donate':
 tes = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3`)
 reply(`╔════════════════════
-║ *DONASI UNTUK KingOfBear BOTZ*
+║ *DONASI UNTUK YANZ BOTZ*
 ╠════════════════════
 ║╭──❉ *DONASI KAK* ❉─────
-║│➸ *DANA* : 0882-7926-8363
+║│➸ *DANA* : gapunya
 ║│➸ *GOPAY* : _Pm Owner Minta Qr_
-║│➸ *OVO* : _Pm Owner Minta Qr_
-║│➸ *PULSA* : _Tidak Tersedia_
+║│➸ *SAWERIA* : _https://saweria.co/dapagans_
+║│➸ *PULSA* : _pm owner_
 ║╰──────────────────
 ╠════════════════════
 ║       
@@ -2716,7 +2717,7 @@ reply(`╔════════════════════
 ║  ▌│█║▌║▌║║▌║▌║█│▌
 ║        
 ╠════════════════════
-║ _*© CREATOR BY KingOfBear Official*_
+║ _*© CREATOR BY Yanz Official*_
 ╚════════════════════`)
 KingOfBear.sendMessage(from, tes, audio, { mimetype: 'audio/mp4', ptt: true, quoted: ftroli })
 break
@@ -2727,7 +2728,7 @@ reply(`━━━━━『 *LIST SEWA BOT* 』━━━━━
 ❏ PERHARI : 1 HARI 2K, 5 HARI 10K 
 ❏ PERMINGGU : 1MIN. 14K, 2MIN. 28K, 3MIN. 60K,
 ❏ PERBULAN : 1B. 30K, 2B. 70K, 3B. 140K,
-❏ PERTAHUN : 1THN. 350K, 2THN. 700K,
+❏ PERTAHUN : 1THN. 350K, 2THN. 430K,
 ❏ PERMANEN : TIMDAK TERSEDIA!
 *minat chat owner*`)
 KingOfBear.sendMessage(from, tes, audio, { mimetype: 'audio/mp4', ptt: true, quoted: ftroli })
@@ -2800,7 +2801,7 @@ reply(`*💎DIAMOND ML💎*
 2700💎=Rp.570.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By KingOfBear Official_*    
+ *_© Creator By Yanz Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupff':
@@ -2830,7 +2831,7 @@ MM : 28.000
 MB  : 140.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator by KingOfBear Official_*    
+ *_©Creator by Yanz Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topuppubg':
@@ -2841,7 +2842,7 @@ reply(`➖➖➖➖➖➖➖➖➖➖➖
 - 🎟️240 = Rp56.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator By KingOfBear Official_*    
+ *_©Creator By Yanz Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topuppb':
@@ -2851,7 +2852,7 @@ reply(`*🎟️POINT BLANK🎟️*
 _tidak tersedia, ke Indomaret Sono_
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By KingOfBear Official_*    
+ *_© Creator By YANZ Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupgopay':
@@ -3202,7 +3203,7 @@ Ketik ${prefix}delttc , Untuk Mereset Permainan Yg Ada Di Grup!`, text, { contex
         buttons = [{ buttonId: `${prefix}mining`, buttonText: { displayText: 'MINING' }, type: 1 }, { buttonId: `${prefix}leaderboard`, buttonText: { displayText: 'LEADEBOARD' }, type: 1 }]
         imageMsg = (await KingOfBear.prepareMessageMedia(buffer, "imageMessage", { thumbnail: buffer, })).imageMessage
         buttonsMessage = {
-          footerText: '®KingOfBear', imageMessage: imageMsg,
+          footerText: '®Yanz Official', imageMessage: imageMsg,
           contentText: `${teks}`, buttons, headerType: 4
         }
         prep = await KingOfBear.prepareMessageFromContent(from, { buttonsMessage }, { quoted: ftroli })
@@ -5577,7 +5578,7 @@ break
 
         pesannya = `🐣Info Corona Global🐣\n\n🐣Positif : ${inf.result.positif}\n\n🐥Meninggal : ${inf.result.meninggal}\n\n🐥Sembuh : ${inf.result.sembuh}\n\n🐥Dirawat : ${inf.result.dirawat}`
 
-        sendButMessage(from, pesannya, `Created KingOfBear`, [
+        sendButMessage(from, pesannya, `Created Yanz Official`, [
           {
             buttonId: ".command",
             buttonText: {
@@ -5958,26 +5959,26 @@ break
         res = await KingOfBear.prepareMessageFromContent(from, {
           "templateMessage": {
             "hydratedFourRowTemplate": {
-              "hydratedContentText": "Hello,\nSelamat Datang KingOfBear Razzaq",
-              "hydratedFooterText": "Debug By KingOfBear",
+              "hydratedContentText": "Hello,\nSelamat Datang Yanz Official",
+              "hydratedFooterText": "Debug By Yanz Official",
               "hydratedButtons": [
                 {
                   "urlButton": {
-                    "displayText": "Join Group Whatsapp KingOfBear Razzaq",
-                    "url": "https://chat.whatsapp.com/KdA0jvJmgQ49uIIg7NmGVJ"
+                    "displayText": "Join Group Whatsapp Yanz Official",
+                    "url": "https://chat.whatsapp.com/Ch5rqamn6dE94g1L5ih4uM"
                   },
                   "index": 0
                 }
               ]
             },
             "hydratedTemplate": {
-              "hydratedContentText": "Hello,\nSelamat Datang KingOfBear Razzaq",
-              "hydratedFooterText": "Debug By KingOfBear",
+              "hydratedContentText": "Hello,\nSelamat Datang Yanz Official",
+              "hydratedFooterText": "Debug By Yanz Official",
               "hydratedButtons": [
                 {
                   "urlButton": {
-                    "displayText": "Join Group Whatsapp KingOfBear Razzaq",
-                    "url": "https://chat.whatsapp.com/KdA0jvJmgQ49uIIg7NmGVJ"
+                    "displayText": "Join Group Whatsapp Yanz Official",
+                    "url": "https://chat.whatsapp.com/Ch5rqamn6dE94g1L5ih4uM"
                   },
                   "index": 0
                 }
